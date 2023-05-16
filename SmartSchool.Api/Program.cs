@@ -19,6 +19,7 @@ namespace SmartSchool.Api
     //delete laterrrr
     public class Program
     {
+        //test to hatem
      
         public static void Main(string[] args)
         {
