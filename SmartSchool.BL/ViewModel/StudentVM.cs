@@ -15,8 +15,6 @@ namespace SmartSchool.BL.ViewModel
 {
     public class StudentVM
     {
-
-        
         [StringLength(50)]
         public string Id { get; set; }
 
@@ -37,32 +35,16 @@ namespace SmartSchool.BL.ViewModel
 
         [Required]
         public string Address { get; set; }
-        public string StudentPhotoUrl { set; get; }
-
-        //[NotMapped]
-        //public IFormFile? StudentPhoto { set; get; }
-
+        public string? StudentPhotoUrl { set; get; }
+        public string? StudentPhoto { set; get; }
         public int? MaxDayOff { get; set; }
-
         public int? AbsenceDays { get; set; }
-
         public bool? Fees { get; set; }
 
         [StringLength(50)]
-
         public string ParentID { get; set; }
-
-        [ForeignKey("ParentID")]
-        [InverseProperty("Students")]
-        //Check This
-        [JsonIgnore]
-        public virtual Parent Parent { get; set; }
-
-
         public int? ClassRoomID { get; set; }
-
-
-
+        public string? ClassRoomName { get; set; }
 
     }
 }

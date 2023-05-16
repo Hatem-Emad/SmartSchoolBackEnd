@@ -38,15 +38,12 @@ namespace SmartSchool.BL.ViewModel
         public string Phone { get; set; }
         [Required]
         public string Address { get; set; }
-
-        [JsonIgnore]
         public string? PhotoUrl { get; set; }
         public string? Photo { set; get; }
         
         //[NotMapped]
         //[JsonIgnore]
         //public IFormFile? Photo { set; get; }
-
 
         [Required]
         public DateTime HireDate { set; get; }

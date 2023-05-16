@@ -1,4 +1,5 @@
 ﻿using SmartSchool.BL.ViewModel;
+using SmartSchool.DAL.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,15 @@ namespace SmartSchool.BL.Interface
 {
     public interface IParentRepo
     {
-        
-       //hyshof drgat ebno hena wla fen
+        public IEnumerable<ParentVM> GetAll();
+        public ParentVM GetbyId(string id);
 
-        
+        //will be void instead of Student
+        public Parent Edit(ParentVM pnt);
+        //for admins or teachers
+        public void Delete(string id);
+
+        //hyshof drgat ebno hena wla fen
+
     }
 }

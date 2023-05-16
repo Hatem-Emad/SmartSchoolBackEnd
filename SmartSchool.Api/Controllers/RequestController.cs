@@ -50,13 +50,7 @@ namespace SmartSchool.Api.Controllers
                         obj.StudentPhotoUrl = UploadFile.Photo(obj.StudentPhoto, "StudentImages");
                     }
                     if (obj.IdentityParentPhoto != null)
-                    {
-                        //Byte[] bytes = Convert.FromBase64String(obj.IdentityParentPhoto);
-                        //string filePath2 = ("UserImages/" + Path.GetFileName(obj.ParentFullName) + rnd.Next() + ".jpg");
-                        ////System.IO.File.WriteAllBytes(filePath2, bytes);
-                        //System.IO.File.WriteAllBytes("wwwroot/" + filePath2, bytes);
-                        //obj.IdentityParentPhotoUrl = filePath2;
-                       
+                    {  
                         obj.IdentityParentPhotoUrl = UploadFile.Photo(obj.IdentityParentPhoto, "IdentityParentImages");
                     }
                     if(obj.StudentBirthCertPhoto != null)

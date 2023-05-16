@@ -22,13 +22,9 @@ namespace SmartSchool.BL.Repository
             Db = db;
             
         }
-
         public SmartSchoolContext Db { get; }
-       
         public void SaveInDb(TeacherVM obj, string TeacherId)
         {
-            
-
             Teacher T = new Teacher()
             {
                 Id = Guid.NewGuid().ToString(),
@@ -47,10 +43,7 @@ namespace SmartSchool.BL.Repository
 
             Db.Teachers.Add(T);
             Db.SaveChanges();
-           
         }
-
-
         public IEnumerable<TeacherVM> GetAll()
         {
             var allTeachers = Db.Teachers.Include("Subject").Select(obj => new TeacherVM()
@@ -65,13 +58,10 @@ namespace SmartSchool.BL.Repository
                 PhotoUrl = obj.PhotoUrl,
                 HireDate = obj.HireDate,
                 SubjectName = obj.Subject.Name,
-              
-
             });
 
             return allTeachers;
         }
-
         public TeacherVM GetById(string id)
         {
             var myTeacher = Db.Teachers.Include("Subject").Where(r => r.Id == id).Select(obj => new TeacherVM()
