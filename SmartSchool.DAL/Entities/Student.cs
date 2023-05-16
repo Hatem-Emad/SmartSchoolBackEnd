@@ -32,20 +32,15 @@ namespace SmartSchool.DAL.Entities
         [Required]
         public DateTime StudentBirthDate { get; set; }
 
-
         [Required]
         public string Address { get; set; }
-
-
         public string StudentPhotoUrl { set; get; }
+        public string StudentBirthCertPhotoUrl { set; get; }
 
-        [NotMapped]
-        public IFormFile? StudentPhoto { set; get; }
-    
+        //[NotMapped]
+        //public IFormFile? StudentPhoto { set; get; }
         public int? MaxDayOff { get; set; }
-
-        public int? AbsenceDays { get; set; }
-
+        public int? AbsenceDays { get; set; } = 0;
         public bool? Fees { get; set; }
 
         [StringLength(50)]
@@ -58,11 +53,7 @@ namespace SmartSchool.DAL.Entities
 
 
         [ForeignKey("IdentityUser")]
-
         public string IdentityUserId { set; get; }
-
-
-
         public virtual IdentityUser IdentityUser { set; get; }
 
         //[StringLength(50)]

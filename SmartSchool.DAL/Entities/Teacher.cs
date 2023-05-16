@@ -29,8 +29,6 @@ namespace SmartSchool.DAL.Entities
         //[EmailAddress]
         //public string Email { get; set; }
 
-
-
         [EnumDataType(typeof(Gender))]
         public Gender? Gender { get; set; }
 
@@ -45,12 +43,10 @@ namespace SmartSchool.DAL.Entities
 
         [Required]       
         public string Address { get; set; }
-
-        public string PhotoUrl { set; get; }
-
-        [NotMapped]
-        public IFormFile? Photo { set; get; }
-
+        public string? PhotoUrl { set; get; }
+       
+        //[NotMapped]
+        //public IFormFile? Photo { set; get; }
 
         [Required]
         public DateTime HireDate { set; get; }
@@ -58,9 +54,8 @@ namespace SmartSchool.DAL.Entities
         //will be adjusted
         public int? MaxDayOff { get; set; }
 
-        public int? AbsenceDays { get; set; }
+        public int? AbsenceDays { get; set; } = 0;
 
-       
         public int SubjectId { get; set; }
 
         [ForeignKey("SubjectId")]
@@ -68,11 +63,7 @@ namespace SmartSchool.DAL.Entities
         public virtual Subject Subject { get; set; }
 
         [ForeignKey("IdentityUser")]
-
         public string IdentityUserId { set; get; }
-
-
-
         public virtual IdentityUser? IdentityUser { set; get; }
 
 

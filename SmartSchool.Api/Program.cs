@@ -69,6 +69,7 @@ namespace SmartSchool.Api
             builder.Services.AddScoped<IScheduleRepo, ScheduleRepo>();
             builder.Services.AddScoped<ISessionRepo, SessionRepo>();
             builder.Services.AddScoped<IStudentAttendanceRepo, StudentAttendanceRepo>();
+            builder.Services.AddScoped<ITeacherAttendanceRepo, TeacherAttendanceRepo>();
 
             //builder.Services.AddScoped<IComplaintRepo, ComplaintRepo>();
             //builder.Services.AddScoped<IParentRepo, ParentRepo>();
@@ -100,8 +101,10 @@ namespace SmartSchool.Api
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
-
+            
+            app.UseStaticFiles();
 
             app.MapControllers();
 

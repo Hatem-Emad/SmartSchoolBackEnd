@@ -61,8 +61,6 @@ namespace SmartSchool.BL.Repository
         public void generateAttendance()
         {
             var students = Db.Students.ToList();
-
-
             for (int i = 0; i < students.Count; i++)
             {
                 StudentAttendance att = new StudentAttendance()
@@ -89,17 +87,11 @@ namespace SmartSchool.BL.Repository
                 {
                     if (stud.state == false)
                     {
-
                         s.AbsenceDays += 1;
                         Db.SaveChanges();
-
                     }
-
                 }
-
             }
-
-
         }
     }
 }

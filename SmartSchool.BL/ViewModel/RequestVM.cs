@@ -55,16 +55,22 @@ namespace SmartSchool.BL.ViewModel
       
         public string ParentPhone { get; set; }
 
+        [JsonIgnore]
         public string? StudentPhotoUrl { set; get; }
-
+        public string? StudentPhoto { set; get; }
 
         //no need it will be in VM only and it will be string no VM.
         //[NotMapped]
         //[JsonIgnore]
         //public IFormFile? StudentPhoto { set; get; }
+        [JsonIgnore]
+        public string? StudentBirthCertPhotoUrl { get; set; }
+        public string? StudentBirthCertPhoto { set; get; }
+        
 
+        [JsonIgnore]
         public string? IdentityParentPhotoUrl { set; get; }
-
+        public string? IdentityParentPhoto { set; get; }
 
         //no need it will be in VM only and it will be string no VM.
         //[NotMapped]

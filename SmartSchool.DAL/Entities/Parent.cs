@@ -25,15 +25,10 @@ namespace SmartSchool.DAL.Entities
 
         [Required]
         public string ParentPhone { get; set; }
-
-
-       
-
-
         public string IdentityParentPhotoUrl { set; get; }
 
-        [NotMapped]
-        public IFormFile? IdentityParentPhoto { set; get; }
+        //[NotMapped]
+        //public IFormFile? IdentityParentPhoto { set; get; }
 
 
         [ForeignKey("IdentityUser")]
