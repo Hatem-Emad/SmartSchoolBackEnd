@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using SmartSchool.BL.Helpers;
 using SmartSchool.BL.Interface;
 using SmartSchool.BL.Models;
 using SmartSchool.BL.Services;
@@ -33,16 +34,42 @@ namespace SmartSchool.Api.Controllers
                 return BadRequest("Object Is Null");
             }
             try
+            {
+                if (ModelState.IsValid)
                 {
-                    if (ModelState.IsValid)
+                    //Random rnd = new Random();
+                    if (obj.StudentPhoto != null)
                     {
-                        RequestRepo.Create(obj);
+                        //Byte[] bytes = Convert.FromBase64String(obj.StudentPhoto);
+                        ////check that photo must be jpg
+                        //string filePath1 = ("UserImages/" + Path.GetFileName(obj.StudentFirstName) + rnd.Next() + ".jpg");
+                        ////System.IO.File.WriteAllBytes(filePath1, bytes);
+                        //System.IO.File.WriteAllBytes("wwwroot/" + filePath1, bytes);
+                        //obj.StudentPhotoUrl = filePath1;
+                        
+                        obj.StudentPhotoUrl = UploadFile.Photo(obj.StudentPhoto, "StudentImages");
+                    }
+                    if (obj.IdentityParentPhoto != null)
+                    {
+                        //Byte[] bytes = Convert.FromBase64String(obj.IdentityParentPhoto);
+                        //string filePath2 = ("UserImages/" + Path.GetFileName(obj.ParentFullName) + rnd.Next() + ".jpg");
+                        ////System.IO.File.WriteAllBytes(filePath2, bytes);
+                        //System.IO.File.WriteAllBytes("wwwroot/" + filePath2, bytes);
+                        //obj.IdentityParentPhotoUrl = filePath2;
+                       
+                        obj.IdentityParentPhotoUrl = UploadFile.Photo(obj.IdentityParentPhoto, "IdentityParentImages");
+                    }
+                    if(obj.StudentBirthCertPhoto != null)
+                    {
+                        obj.StudentBirthCertPhotoUrl = UploadFile.Photo(obj.StudentBirthCertPhoto, "StudentImages");
+                    }
+                    RequestRepo.Create(obj);
                     //what to write inside created to redirect to getall page??
                     //try created
-                        return Ok(obj);
-                    }
-                return BadRequest();
+                    return Ok(obj);
                 }
+                return BadRequest();
+            }
 
             catch (Exception ex)
             {

@@ -55,22 +55,19 @@ namespace SmartSchool.DAL.Entities
         
         public string ParentPhone { get; set; }
 
-        public string StudentPhotoUrl { set; get; }
+        public string? StudentPhotoUrl { set; get; }
+        public string? StudentBirthCertPhotoUrl { set; get; }
 
-        [NotMapped]
-        public IFormFile? StudentPhoto { set; get; }
+        //[NotMapped]
+        //public IFormFile? StudentPhoto { set; get; }
 
-        public string IdentityParentPhotoUrl { set; get; }
+        public string? IdentityParentPhotoUrl { set; get; }
 
-        [NotMapped]
-       
-        public IFormFile? IdentityParentPhoto { set; get; }
+        //[NotMapped]
+        //public IFormFile? IdentityParentPhoto { set; get; }
 
-
-       
         [Required]          
         public string Password { set; get; }
-
 
     }
 }

@@ -35,15 +35,12 @@ namespace SmartSchool.BL.ViewModel
         [Required]
         public DateTime StudentBirthDate { get; set; }
 
-
         [Required]
         public string Address { get; set; }
-
-
         public string StudentPhotoUrl { set; get; }
 
-        [NotMapped]
-        public IFormFile? StudentPhoto { set; get; }
+        //[NotMapped]
+        //public IFormFile? StudentPhoto { set; get; }
 
         public int? MaxDayOff { get; set; }
 

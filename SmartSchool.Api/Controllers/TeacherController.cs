@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using SmartSchool.BL.Helpers;
 using SmartSchool.BL.Interface;
 using SmartSchool.BL.Models;
 using SmartSchool.BL.Repository;
@@ -24,12 +25,8 @@ namespace SmartSchool.Api.Controllers
             this.UserManager = userManager;
         }
 
-
-
-
         [HttpPost]
         [Route("Save")]
-
         //where to send the list of subject names ?? here or in front ??
         public async Task<IActionResult> RegisterAsync(TeacherVM obj)
         {
@@ -39,38 +36,63 @@ namespace SmartSchool.Api.Controllers
             }
             try
             {
-                if (!ModelState.IsValid)
+                if(ModelState.IsValid) 
+                {
+                    if (obj.Photo  != null)
+                        obj.PhotoUrl = UploadFile.Photo(obj.Photo, "TeacherImages");
+                    
+                    RegisterModel myTeacher = new RegisterModel()
+                    {
+                        Email = obj.Email,
+                        Username = obj.FullName,
+                        Password = obj.Password,
+                        //Password = "#SmartSchool2023",
+                        myRole = "Teacher"
+                    };
+
+                    var Teacher = await authService.RegisterAsync(myTeacher);
+                    var TeacherIdentityId = UserManager.FindByEmailAsync(myTeacher.Email).Result.Id;
+                    TeacherRepo.SaveInDb(obj, TeacherIdentityId);
+                    return Ok(Teacher);
+
+                }
+                else
                 {
                     return BadRequest();
                 }
-                RegisterModel myTeacher = new RegisterModel()
-                {
-                    Email = obj.Email,
-                    Username = obj.FullName,
-                    Password = obj.Password,
-                    //Password = "#SmartSchool2023",
+                #region commented
+                //if (!ModelState.IsValid)
+                //{
+                //    return BadRequest();
+                //}
+                //RegisterModel myTeacher = new RegisterModel()
+                //{
+                //    Email = obj.Email,
+                //    Username = obj.FullName,
+                //    Password = obj.Password,
+                //    //Password = "#SmartSchool2023",
 
-                    myRole = "Teacher"
-                };
+                //    myRole = "Teacher"
+                //};
 
 
-                var Teacher = await authService.RegisterAsync(myTeacher);
+                //var Teacher = await authService.RegisterAsync(myTeacher);
 
 
                 //l gded
-                var TeacherIdentityId = UserManager.FindByEmailAsync(myTeacher.Email).Result.Id;
-
+                //var TeacherIdentityId = UserManager.FindByEmailAsync(myTeacher.Email).Result.Id;
 
 
 
                 //we will send id in action paremter    
                 //l gded
-                TeacherRepo.SaveInDb(obj, TeacherIdentityId);
+                //TeacherRepo.SaveInDb(obj, TeacherIdentityId);
 
                 //return Ok({ token = result.Token, expireOn = result.ExpireOn});
 
                 //return Ok(result);
-                return Ok(Teacher);
+                //return Ok(Teacher); 
+                #endregion
             }
 
             catch (Exception ex)

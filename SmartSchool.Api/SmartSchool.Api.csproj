@@ -25,4 +25,10 @@
     <ProjectReference Include="..\SmartSchool.BL\SmartSchool.BL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\TeacherImages\" />
+    <Folder Include="wwwroot\StudentImages\" />
+    <Folder Include="wwwroot\IdentityParentImages\" />
+  </ItemGroup>
+
 </Project>

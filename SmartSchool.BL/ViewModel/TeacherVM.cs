@@ -24,8 +24,6 @@ namespace SmartSchool.BL.ViewModel
         [Required]
         [EmailAddress]
         public string Email { get; set; }
-
-
         public string Password { set; get; }
 
         [EnumDataType(typeof(Gender))]
@@ -34,20 +32,20 @@ namespace SmartSchool.BL.ViewModel
         [Required]
         //don't forget to add salary annotation
         public decimal Salary { get; set; }
-
         [Required]
         [StringLength(11)]
         //[Phone]
         public string Phone { get; set; }
-
         [Required]
         public string Address { get; set; }
 
-        public string PhotoUrl { set; get; }
-
-        [NotMapped]
         [JsonIgnore]
-        public IFormFile? Photo { set; get; }
+        public string? PhotoUrl { get; set; }
+        public string? Photo { set; get; }
+        
+        //[NotMapped]
+        //[JsonIgnore]
+        //public IFormFile? Photo { set; get; }
 
 
         [Required]
@@ -71,8 +69,6 @@ namespace SmartSchool.BL.ViewModel
         //put ? or not ?
 
         public string? IdentityUserId { set; get; }
-
-
 
         //public virtual IdentityUser IdentityUser { set; get; }
     }

@@ -43,6 +43,7 @@ namespace SmartSchool.BL.Repository
                 ParentEmail = obj.ParentEmail,
                 ParentPhone = obj.ParentPhone,
                 StudentPhotoUrl = obj.StudentPhotoUrl,
+                StudentBirthCertPhotoUrl = obj.StudentBirthCertPhotoUrl,
                 IdentityParentPhotoUrl = obj.IdentityParentPhotoUrl,
                 Password = obj.Password,
                 
@@ -72,6 +73,7 @@ namespace SmartSchool.BL.Repository
                 ParentEmail = obj.ParentEmail,
                 ParentPhone = obj.ParentPhone,
                 StudentPhotoUrl = obj.StudentPhotoUrl,
+                StudentBirthCertPhotoUrl = obj.StudentBirthCertPhotoUrl,
                 IdentityParentPhotoUrl = obj.IdentityParentPhotoUrl,
 
                 //momken nshelo b3d kda
@@ -97,6 +99,7 @@ namespace SmartSchool.BL.Repository
                 ParentEmail = obj.ParentEmail,
                 ParentPhone = obj.ParentPhone,
                 StudentPhotoUrl = obj.StudentPhotoUrl,
+                StudentBirthCertPhotoUrl = obj.StudentBirthCertPhotoUrl,
                 IdentityParentPhotoUrl = obj.IdentityParentPhotoUrl,
                 
                 //momken nshelo b3d kda
@@ -133,6 +136,7 @@ namespace SmartSchool.BL.Repository
                 StudentPhone = myRequest.StudentPhone,
                 StudentBirthDate = myRequest.StudentBirthDate,
                 StudentPhotoUrl = myRequest.StudentPhotoUrl,
+                StudentBirthCertPhotoUrl = myRequest.StudentBirthCertPhotoUrl,
                 
                 
                 //new
@@ -140,9 +144,6 @@ namespace SmartSchool.BL.Repository
             };
             Db.Students.Add(S);
             Db.SaveChanges();
-
-
-
         }
 
         public void Delete(int id)

@@ -333,7 +333,6 @@ namespace SmartSchool.DAL.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("IdentityParentPhotoUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ParentEmail")
@@ -350,6 +349,9 @@ namespace SmartSchool.DAL.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StudentBirthCertPhotoUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("StudentBirthDate")
@@ -372,7 +374,6 @@ namespace SmartSchool.DAL.Migrations
                         .HasColumnType("nvarchar(11)");
 
                     b.Property<string>("StudentPhotoUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id");
@@ -460,6 +461,10 @@ namespace SmartSchool.DAL.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("StudentBirthCertPhotoUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("StudentBirthDate")
                         .HasColumnType("datetime2");
@@ -572,7 +577,6 @@ namespace SmartSchool.DAL.Migrations
                         .HasColumnType("nvarchar(11)");
 
                     b.Property<string>("PhotoUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Salary")
@@ -588,6 +592,31 @@ namespace SmartSchool.DAL.Migrations
                     b.HasIndex("SubjectId");
 
                     b.ToTable("Teachers");
+                });
+
+            modelBuilder.Entity("SmartSchool.DAL.Entities.TeacherAttendance", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("State")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("TeacherId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TeacherId");
+
+                    b.ToTable("TeacherAttendances");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -766,6 +795,17 @@ namespace SmartSchool.DAL.Migrations
                     b.Navigation("IdentityUser");
 
                     b.Navigation("Subject");
+                });
+
+            modelBuilder.Entity("SmartSchool.DAL.Entities.TeacherAttendance", b =>
+                {
+                    b.HasOne("SmartSchool.DAL.Entities.Teacher", "Teacher")
+                        .WithMany()
+                        .HasForeignKey("TeacherId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Teacher");
                 });
 
             modelBuilder.Entity("SmartSchool.DAL.Entities.ClassRoom", b =>
