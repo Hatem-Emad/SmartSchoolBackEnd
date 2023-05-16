@@ -4249,19 +4249,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\dubai\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\SmartSchool.Api.csproj",
+      "projectUniqueName": "E:\\I T I\\CU,net\\00-github\\SmartSchoolBackEnd\\SmartSchool.Api\\SmartSchool.Api.csproj",
       "projectName": "SmartSchool.Api",
-      "projectPath": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\SmartSchool.Api.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\obj\\",
+      "projectPath": "E:\\I T I\\CU,net\\00-github\\SmartSchoolBackEnd\\SmartSchool.Api\\SmartSchool.Api.csproj",
+      "packagesPath": "C:\\Users\\dubai\\.nuget\\packages\\",
+      "outputPath": "E:\\I T I\\CU,net\\00-github\\SmartSchoolBackEnd\\SmartSchool.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dubai\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4275,8 +4275,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.BL\\SmartSchool.BL.csproj": {
-              "projectPath": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.BL\\SmartSchool.BL.csproj"
+            "E:\\I T I\\CU,net\\00-github\\SmartSchoolBackEnd\\SmartSchool.BL\\SmartSchool.BL.csproj": {
+              "projectPath": "E:\\I T I\\CU,net\\00-github\\SmartSchoolBackEnd\\SmartSchool.BL\\SmartSchool.BL.csproj"
             }
           }
         }
