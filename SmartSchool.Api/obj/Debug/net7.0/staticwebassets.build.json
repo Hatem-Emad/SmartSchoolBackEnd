@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yLIs7Rf76Y6oJJiUHw71ZIc9fPAfYFX+xXVAHa8sxYs=",
+  "Hash": "xY5b/P2KWEFRUw/fhv86GciUkOs2R8qLBYRF+ly1smk=",
   "Source": "SmartSchool.Api",
   "BasePath": "_content/SmartSchool.Api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SmartSchool.Api\\wwwroot",
       "Source": "SmartSchool.Api",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\IdentityParentImages\\9k=1164125004.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\IdentityParentImages\\9k=1164125004.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "IdentityParentImages/9k=1164125004.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\IdentityParentImages\\9k=1164125004.jpg"
     },
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\IdentityParentImages\\9k=1372757569.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\IdentityParentImages\\9k=1372757569.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "IdentityParentImages/9k=1372757569.jpg",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\IdentityParentImages\\9k=1372757569.jpg"
     },
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\IdentityParentImages\\9k=1764343162.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\IdentityParentImages\\9k=1764343162.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "IdentityParentImages/9k=1764343162.jpg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\IdentityParentImages\\9k=1764343162.jpg"
     },
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\IdentityParentImages\\9k=679825928.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\IdentityParentImages\\9k=679825928.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "IdentityParentImages/9k=679825928.jpg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\IdentityParentImages\\9k=679825928.jpg"
     },
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\IdentityParentImages\\9k=704641951.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\IdentityParentImages\\9k=704641951.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "IdentityParentImages/9k=704641951.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\IdentityParentImages\\9k=704641951.jpg"
     },
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=1041113373.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=1041113373.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "StudentImages/9k=1041113373.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\StudentImages\\9k=1041113373.jpg"
     },
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=1172731342.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=1172731342.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "StudentImages/9k=1172731342.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\StudentImages\\9k=1172731342.jpg"
     },
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=1858404555.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=1858404555.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "StudentImages/9k=1858404555.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\StudentImages\\9k=1858404555.jpg"
     },
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=2112015072.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=2112015072.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "StudentImages/9k=2112015072.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\StudentImages\\9k=2112015072.jpg"
     },
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=212574630.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=212574630.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "StudentImages/9k=212574630.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\StudentImages\\9k=212574630.jpg"
     },
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=468745956.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=468745956.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "StudentImages/9k=468745956.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\StudentImages\\9k=468745956.jpg"
     },
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=508479341.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=508479341.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "StudentImages/9k=508479341.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\StudentImages\\9k=508479341.jpg"
     },
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=681918354.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=681918354.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "StudentImages/9k=681918354.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\StudentImages\\9k=681918354.jpg"
     },
     {
-      "Identity": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=828550041.jpg",
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\StudentImages\\9k=828550041.jpg",
       "SourceId": "SmartSchool.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\I T I\\CU,net\\aFINAL PROJECT\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
       "BasePath": "_content/SmartSchool.Api",
       "RelativePath": "StudentImages/9k=828550041.jpg",
       "AssetKind": "All",
@@ -253,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\StudentImages\\9k=828550041.jpg"
+    },
+    {
+      "Identity": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\TeacherImages\\9k=1151312054.jpg",
+      "SourceId": "SmartSchool.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.Api\\wwwroot\\",
+      "BasePath": "_content/SmartSchool.Api",
+      "RelativePath": "TeacherImages/9k=1151312054.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TeacherImages\\9k=1151312054.jpg"
     }
   ]
 }

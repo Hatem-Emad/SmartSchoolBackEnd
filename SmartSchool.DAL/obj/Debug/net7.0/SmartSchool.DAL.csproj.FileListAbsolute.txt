@@ -40,3 +40,17 @@ E:\I T I\CU,net\aFINAL PROJECT\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7
 E:\I T I\CU,net\aFINAL PROJECT\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.pdb
 E:\I T I\CU,net\aFINAL PROJECT\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.genruntimeconfig.cache
 E:\I T I\CU,net\aFINAL PROJECT\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\ref\SmartSchool.DAL.dll
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\bin\Debug\net7.0\SmartSchool.DAL.deps.json
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\bin\Debug\net7.0\SmartSchool.DAL.runtimeconfig.json
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\bin\Debug\net7.0\SmartSchool.DAL.dll
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\bin\Debug\net7.0\SmartSchool.DAL.pdb
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.csproj.AssemblyReference.cache
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.AssemblyInfoInputs.cache
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.AssemblyInfo.cs
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.csproj.CoreCompileInputs.cache
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.dll
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\refint\SmartSchool.DAL.dll
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.pdb
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.genruntimeconfig.cache
+D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\ref\SmartSchool.DAL.dll
