@@ -58,3 +58,18 @@ D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchoo
 D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.BL\obj\Debug\net7.0\refint\SmartSchool.BL.dll
 D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.BL\obj\Debug\net7.0\SmartSchool.BL.pdb
 D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.BL\obj\Debug\net7.0\ref\SmartSchool.BL.dll
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\bin\Debug\net7.0\SmartSchool.BL.deps.json
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\bin\Debug\net7.0\SmartSchool.BL.dll
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\bin\Debug\net7.0\SmartSchool.BL.pdb
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\bin\Debug\net7.0\SmartSchool.DAL.dll
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\bin\Debug\net7.0\SmartSchool.DAL.pdb
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\obj\Debug\net7.0\SmartSchool.BL.csproj.AssemblyReference.cache
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\obj\Debug\net7.0\SmartSchool.BL.GeneratedMSBuildEditorConfig.editorconfig
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\obj\Debug\net7.0\SmartSchool.BL.AssemblyInfoInputs.cache
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\obj\Debug\net7.0\SmartSchool.BL.AssemblyInfo.cs
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\obj\Debug\net7.0\SmartSchool.BL.csproj.CoreCompileInputs.cache
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\obj\Debug\net7.0\SmartSchool.BL.csproj.CopyComplete
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\obj\Debug\net7.0\SmartSchool.BL.dll
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\obj\Debug\net7.0\refint\SmartSchool.BL.dll
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\obj\Debug\net7.0\SmartSchool.BL.pdb
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.BL\obj\Debug\net7.0\ref\SmartSchool.BL.dll

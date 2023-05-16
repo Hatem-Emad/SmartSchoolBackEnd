@@ -54,8 +54,6 @@ namespace SmartSchool.BL.ViewModel
         [Required]
       
         public string ParentPhone { get; set; }
-
-        [JsonIgnore]
         public string? StudentPhotoUrl { set; get; }
         public string? StudentPhoto { set; get; }
 
@@ -63,12 +61,8 @@ namespace SmartSchool.BL.ViewModel
         //[NotMapped]
         //[JsonIgnore]
         //public IFormFile? StudentPhoto { set; get; }
-        [JsonIgnore]
         public string? StudentBirthCertPhotoUrl { get; set; }
         public string? StudentBirthCertPhoto { set; get; }
-        
-
-        [JsonIgnore]
         public string? IdentityParentPhotoUrl { set; get; }
         public string? IdentityParentPhoto { set; get; }
 

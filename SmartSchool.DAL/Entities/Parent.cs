@@ -21,8 +21,6 @@ namespace SmartSchool.DAL.Entities
         [Required]
         //[RegularExpression("(^[A-Za-z]{3,16})([ ]{1})([A-Za-z]{3,16})([ ]{0,1})([A-Za-z]{3,16})")]
         public string ParentFullName { get; set; }
-
-
         [Required]
         public string ParentPhone { get; set; }
         public string IdentityParentPhotoUrl { set; get; }

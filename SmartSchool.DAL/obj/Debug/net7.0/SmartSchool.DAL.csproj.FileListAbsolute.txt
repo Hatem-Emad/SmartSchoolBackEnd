@@ -54,3 +54,17 @@ D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchoo
 D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.pdb
 D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.genruntimeconfig.cache
 D:\0000-Final Project\00-GitHub\SmartSchoolBackEnd\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\ref\SmartSchool.DAL.dll
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\bin\Debug\net7.0\SmartSchool.DAL.deps.json
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\bin\Debug\net7.0\SmartSchool.DAL.runtimeconfig.json
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\bin\Debug\net7.0\SmartSchool.DAL.dll
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\bin\Debug\net7.0\SmartSchool.DAL.pdb
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.csproj.AssemblyReference.cache
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.AssemblyInfoInputs.cache
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.AssemblyInfo.cs
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.csproj.CoreCompileInputs.cache
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.dll
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\refint\SmartSchool.DAL.dll
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.pdb
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\SmartSchool.DAL.genruntimeconfig.cache
+E:\I T I\CU,net\00-github\SmartSchoolBackEnd\SmartSchool.DAL\obj\Debug\net7.0\ref\SmartSchool.DAL.dll

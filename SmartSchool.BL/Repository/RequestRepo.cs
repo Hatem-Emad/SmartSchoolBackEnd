@@ -24,7 +24,6 @@ namespace SmartSchool.BL.Repository
             Db = db;
             AuthService = authService;
         }
-
         public SmartSchoolContext Db { get; }
         public IAuthService AuthService { get; }
 
