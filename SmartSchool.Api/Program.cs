@@ -16,7 +16,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace SmartSchool.Api
 {
-    //delete later
+    //delete laterrrr
     public class Program
     {
      
