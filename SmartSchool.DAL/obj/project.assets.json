@@ -3713,19 +3713,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dubai\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\I T I\\CU,net\\00-github\\SmartSchoolBackEnd\\SmartSchool.DAL\\SmartSchool.DAL.csproj",
+      "projectUniqueName": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.DAL\\SmartSchool.DAL.csproj",
       "projectName": "SmartSchool.DAL",
-      "projectPath": "E:\\I T I\\CU,net\\00-github\\SmartSchoolBackEnd\\SmartSchool.DAL\\SmartSchool.DAL.csproj",
-      "packagesPath": "C:\\Users\\dubai\\.nuget\\packages\\",
-      "outputPath": "E:\\I T I\\CU,net\\00-github\\SmartSchoolBackEnd\\SmartSchool.DAL\\obj\\",
+      "projectPath": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.DAL\\SmartSchool.DAL.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\0000-Final Project\\00-GitHub\\SmartSchoolBackEnd\\SmartSchoolBackEnd\\SmartSchool.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dubai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

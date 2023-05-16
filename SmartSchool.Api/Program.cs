@@ -16,10 +16,10 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace SmartSchool.Api
 {
-    //delete laterrrr
+    
     public class Program
     {
-        //test to hatem
+        //16-05-2023 Ayman
      
         public static void Main(string[] args)
         {
